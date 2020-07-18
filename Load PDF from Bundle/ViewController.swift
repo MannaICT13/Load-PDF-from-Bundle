@@ -15,15 +15,23 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Load PDF", style: .plain, target: self, action: #selector(loadPDF))
+        
         
     }
     
     @objc func loadPDF(){
         
-        
-        
-        
+        guard let url = Bundle.main.url(forResource: "thzz", withExtension: "pdf")else{return}
+
+        let document = PDFDocument(url: url)
+        let pdfView = PDFView(frame: view.frame)
+        pdfView.document = document
+        view.addSubview(pdfView)
+
+
+
         
     }
     
