@@ -7,13 +7,28 @@
 //
 
 import UIKit
+import PDFKit
 
 class ViewController: UIViewController {
+    
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Load PDF", style: .plain, target: self, action: #selector(loadPDF))
+        
     }
+    
+    @objc func loadPDF(){
+        
+        
+        
+        
+        
+    }
+    
+    
+    
 
 
 }

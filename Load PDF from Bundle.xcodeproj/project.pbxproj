@@ -13,6 +13,7 @@
 		2A292EB224C352A500CD1AC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A292EB024C352A500CD1AC8 /* Main.storyboard */; };
 		2A292EB424C352AD00CD1AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A292EB324C352AD00CD1AC8 /* Assets.xcassets */; };
 		2A292EB724C352AE00CD1AC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A292EB524C352AE00CD1AC8 /* LaunchScreen.storyboard */; };
+		2A292EBF24C3538400CD1AC8 /* thzz.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2A292EBE24C3538400CD1AC8 /* thzz.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2A292EB324C352AD00CD1AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A292EB624C352AE00CD1AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A292EB824C352AE00CD1AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A292EBE24C3538400CD1AC8 /* thzz.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = thzz.pdf; path = ../../../../Downloads/thzz.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				2A292EAE24C352A500CD1AC8 /* ViewController.swift */,
 				2A292EB024C352A500CD1AC8 /* Main.storyboard */,
 				2A292EB324C352AD00CD1AC8 /* Assets.xcassets */,
+				2A292EBE24C3538400CD1AC8 /* thzz.pdf */,
 				2A292EB524C352AE00CD1AC8 /* LaunchScreen.storyboard */,
 				2A292EB824C352AE00CD1AC8 /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A292EBF24C3538400CD1AC8 /* thzz.pdf in Resources */,
 				2A292EB724C352AE00CD1AC8 /* LaunchScreen.storyboard in Resources */,
 				2A292EB424C352AD00CD1AC8 /* Assets.xcassets in Resources */,
 				2A292EB224C352A500CD1AC8 /* Main.storyboard in Resources */,
